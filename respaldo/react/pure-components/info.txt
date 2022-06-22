@@ -1,0 +1,3 @@
+Con PureComponent
+Los componentes hijos no se vuelven a renderizar
+si el estado de este no ha cambiado

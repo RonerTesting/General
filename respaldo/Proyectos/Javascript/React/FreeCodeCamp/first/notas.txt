@@ -1,0 +1,9 @@
+*-*-*-*-*-components*-*-*-*-*-
+1) importar 
+React from 'react'
+2)Crear una funcion que inicie con una letra mayuscula
+para luego usar JSX
+3) se importa ReactDOM from 'react-dom' solamente en el index.js
+
+//en caso de que sea el index.js
+4) lueog se usa el metodo de ReactDOM.render(<functionName/>,document.getElementById('root'))

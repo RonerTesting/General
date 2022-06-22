@@ -1,0 +1,11 @@
+{
+  "name": "Second Extension",
+  "version": "0.1.0",
+  "description": "Build an Extension!",
+  "background":{
+    "service_worker":"background.js"
+  },
+  "permissions":["scripting"],
+  "host_permissions": ["<all_urls>"],
+  "manifest_version": 3
+}

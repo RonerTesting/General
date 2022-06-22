@@ -1,0 +1,32 @@
+UseEffect Se utiliza para realizar una accion
+    por cada renderizado
+    
+    1) Si se le da como 2do argumento un arreglo vacio
+    solamente va a ejecutarse al primer renderizado
+
+    2) Si se le manda un arreglo con un estado este va 
+    a realizar la ejecucion segun cambie el estado que esta
+    observando
+useRef Se utiliza para acceder/trackear un elemento especifico
+
+useContext
+
+El useContext se usa para definir una propiedad viva tanto
+en el componente envuelto como en los hijos
+
+
+PropTypes:
+
+Evalua los 'props' que recibe un componente
+
+Ejemplo
+
+import PropTypes from "prop-types";
+Product.propTypes = {
+  image: PropTypes.object.isRequired,
+  name: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+};
+
+donde 'Product.propTypes' define las reglas que se le indiquen 
+en el objeto.

@@ -1,0 +1,64 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+// function Greeting() {
+//   return <h1>this is roner and this is not my first component</h1>;
+// }
+
+// const Greeting = () => {
+//   return React.createElement(
+//     "div",
+//     {},
+//     react.CreateElement('h1',{},'hello world')
+//   );
+// };
+
+/*JSX  Rules
+
+-> return single element
+-> div / section / article or React.Fragment (<></>)
+-> use camelCase for html atrribute
+-> className instead of class
+-> close to every element
+-> formatting
+
+function Greeting() {
+  return (
+    <div className="">
+      <h1>Hello People</h1>
+      <ul>
+        <li>
+          <a href="/">hello world</a>
+        </li>
+        <img src="" alt="" />
+        <input type="text" name="" id="" />
+      </ul>
+    </div>
+  );
+}
+
+--------------------------------------
+ Nested Components, React Tools
+
+ function Greeting() {
+  return (
+    <div>
+      <Person />
+      <Message />
+    </div>
+  );
+}
+
+const Person = () => <h1>john doe</h1>;
+const Message = () => <p>this is my message</p>;
+
+*/
+
+/*
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+*/

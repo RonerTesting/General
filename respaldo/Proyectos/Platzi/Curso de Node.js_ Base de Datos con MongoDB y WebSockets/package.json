@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
+    "multer": "^1.4.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "curso-de-nodejs-base-de-datos-con-mongodb-y-websockets",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
